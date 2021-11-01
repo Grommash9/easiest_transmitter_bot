@@ -173,5 +173,6 @@ def send_data(check_number, last_name, data):
     print(resp.status_code)
 
 start_time = time.time()
-print(get_last_data('517503943', 'Ким'))
+#print(get_last_data('517503943', 'Ким'))
 print(time.time() - start_time)
+print(check_account('517503943', 'Ким'))
